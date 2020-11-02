@@ -23,7 +23,9 @@ Project Types
     :target: https://runbot.odoo-community.org/runbot/140/11.0
     :alt: Try me on Runbot
 
-|badge1| |badge2| |badge3| |badge4| |badge5| 
+|badge1| |badge2| |badge3| |badge4| |badge5|
+
+**This module is NOT COMPATIBLE with project_characterization, to add type field in project and task install project_characterization module.**
 
 This module adds the category type fields in project and task.
 
