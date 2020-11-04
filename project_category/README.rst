@@ -25,7 +25,7 @@ Project Types
 
 |badge1| |badge2| |badge3| |badge4| |badge5|
 
-**This module is NOT COMPATIBLE with project_characterization, to add type field in project and task install project_characterization module.**
+**WARNING: This module is NOT COMPATIBLE with project_characterization.**
 
 This module adds the category type fields in project and task.
 
