@@ -1,0 +1,328 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* project_risk
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-05 11:16+0000\n"
+"PO-Revision-Date: 2021-02-05 11:16+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: project_risk
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_actionee_id
+msgid "Actionee"
+msgstr "Arduraduna"
+
+#. module: project_risk
+#: model:ir.ui.view,arch_db:project_risk.project_risk_search_view
+#: selection:project.risk,state:0
+msgid "Active"
+msgstr "Aktiboa"
+
+#. module: project_risk
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_project_risk_category_id
+msgid "Category"
+msgstr "Kategoria"
+
+#. module: project_risk
+#: selection:project.risk,state:0
+msgid "Closed"
+msgstr "Itxita"
+
+#. module: project_risk
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_category_create_uid
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_create_uid
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_category_create_uid
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_create_uid
+msgid "Created by"
+msgstr "Nork sortua"
+
+#. module: project_risk
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_category_create_date
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_create_date
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_category_create_date
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_create_date
+msgid "Created on"
+msgstr "Non sortua"
+
+#. module: project_risk
+#: selection:project.risk,rating:0
+msgid "Critical"
+msgstr "Kritikaria"
+
+#. module: project_risk
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_description
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_description
+#: model:ir.ui.view,arch_db:project_risk.project_risk_form_view
+msgid "Description"
+msgstr "Deskribapena"
+
+#. module: project_risk
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_category_display_name
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_display_name
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_category_display_name
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_display_name
+msgid "Display Name"
+msgstr "Izena"
+
+#. module: project_risk
+#: selection:project.risk,state:0
+msgid "Draft"
+msgstr "Zirriborroa"
+
+#. module: project_risk
+#: selection:project.risk,impact:0
+msgid "Extreme"
+msgstr "Larria"
+
+#. module: project_risk
+#: model:ir.ui.view,arch_db:project_risk.project_risk_search_view
+msgid "Group By..."
+msgstr "Taldekatu..."
+
+#. module: project_risk
+#: selection:project.risk,proximity:0
+#: selection:project.risk,rating:0
+msgid "High"
+msgstr "Altua"
+
+#. module: project_risk
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_category_id
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_id
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_category_id
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_id
+msgid "ID"
+msgstr "ID"
+
+#. module: project_risk
+#: selection:project.risk,proximity:0
+msgid "Imminent"
+msgstr "Berehalakoa"
+
+#. module: project_risk
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_impact
+msgid "Impact"
+msgstr "Eragina"
+
+#. module: project_risk
+#: model:ir.model.fields,field_description:project_risk.field_project_risk___last_update
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_category___last_update
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_response___last_update
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_category___last_update
+msgid "Last Modified on"
+msgstr "Azken aldaketa"
+
+#. module: project_risk
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_category_write_uid
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_category_write_uid
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_write_uid
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_write_uid
+msgid "Last Updated by"
+msgstr "Azkenengoz eguneratu zuena"
+
+#. module: project_risk
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_category_write_date
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_category_write_date
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_write_date
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_write_date
+msgid "Last Updated on"
+msgstr "Azken eguneraketa noiz"
+
+#. module: project_risk
+#: selection:project.risk,probability:0
+msgid "Likely"
+msgstr "Gertagarri"
+
+#. module: project_risk
+#: selection:project.risk,proximity:0
+#: selection:project.risk,rating:0
+msgid "Low"
+msgstr "Behea"
+
+#. module: project_risk
+#: selection:project.risk,rating:0
+msgid "Low-Medium"
+msgstr "Behea-ertaina"
+
+#. module: project_risk
+#: selection:project.risk,proximity:0
+#: selection:project.risk,rating:0
+msgid "Medium"
+msgstr "Ertaina"
+
+#. module: project_risk
+#: selection:project.risk,rating:0
+msgid "Medium-High"
+msgstr "Ertaina-altua"
+
+#. module: project_risk
+#: selection:project.risk,impact:0
+msgid "Minor"
+msgstr "Txikia"
+
+#. module: project_risk
+#: selection:project.risk,impact:0
+msgid "Moderate"
+msgstr "Ertaina"
+
+#. module: project_risk
+#: selection:project.risk,rating:0
+msgid "N/A"
+msgstr "N/A"
+
+#. module: project_risk
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_category_name
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_name
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_category_name
+msgid "Name"
+msgstr "Izena"
+
+#. module: project_risk
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_owner_id
+msgid "Owner"
+msgstr "Jabea"
+
+#. module: project_risk
+#: selection:project.risk,probability:0
+msgid "Possible"
+msgstr "Posible"
+
+#. module: project_risk
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_probability
+msgid "Probability"
+msgstr "Probabilitate"
+
+#. module: project_risk
+#: model:ir.model,name:project_risk.model_project_project
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_project_id
+#: model:ir.ui.view,arch_db:project_risk.project_risk_search_view
+msgid "Project"
+msgstr "Proiektu"
+
+#. module: project_risk
+#: model:ir.model,name:project_risk.model_project_risk
+#: model:ir.model.fields,field_description:project_risk.field_project_project_project_risk_ids
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_project_risk_id
+msgid "Project Risk"
+msgstr "Proiektuaren arriskua"
+
+#. module: project_risk
+#: model:ir.model.fields,field_description:project_risk.field_project_project_project_risk_count
+msgid "Project Risk Count"
+msgstr "Proiektuaren arriskuen kontaketa"
+
+#. module: project_risk
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_proximity
+msgid "Proximity"
+msgstr "Hurbiltasuna"
+
+#. module: project_risk
+#: selection:project.risk,probability:0
+msgid "Rare"
+msgstr "Arraroa"
+
+#. module: project_risk
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_rating
+msgid "Rating"
+msgstr "Sailkapena"
+
+#. module: project_risk
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_project_risk_response_ids
+#: model:ir.ui.view,arch_db:project_risk.project_risk_form_view
+msgid "Response"
+msgstr "Erantzuna"
+
+#. module: project_risk
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_project_risk_response_category_id
+msgid "Response Category"
+msgstr "Erantzun-kategoria"
+
+#. module: project_risk
+#: model:ir.actions.act_window,name:project_risk.project_risk_category_action
+#: model:ir.ui.menu,name:project_risk.project_risk_category_menu
+msgid "Risk Categories"
+msgstr "Arrisku-kategoria"
+
+#. module: project_risk
+#: model:ir.actions.act_window,name:project_risk.project_risk_response_category_action
+#: model:ir.ui.menu,name:project_risk.project_risk_response_category_menu
+msgid "Risk Response Categories"
+msgstr "Arrisku-erantzunaren kategoriak"
+
+#. module: project_risk
+#: model:ir.actions.act_window,name:project_risk.project_risk_action
+#: model:ir.ui.menu,name:project_risk.project_risk_menu
+#: model:ir.ui.view,arch_db:project_risk.edit_project
+#: model:ir.ui.view,arch_db:project_risk.project_completion_kanban
+msgid "Risks"
+msgstr "Arriskuak"
+
+#. module: project_risk
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_response_sequence
+msgid "Sequence"
+msgstr "Sekuentzia"
+
+#. module: project_risk
+#: selection:project.risk,impact:0
+msgid "Significant"
+msgstr "Adierazgarria"
+
+#. module: project_risk
+#: model:ir.model.fields,field_description:project_risk.field_project_risk_state
+msgid "State"
+msgstr "Egoera"
+
+#. module: project_risk
+#: selection:project.risk,impact:0
+#: selection:project.risk,rating:0
+msgid "Trivial"
+msgstr "Tribiala"
+
+#. module: project_risk
+#: selection:project.risk,probability:0
+msgid "Unlikely"
+msgstr "Nekez gertatuko"
+
+#. module: project_risk
+#: selection:project.risk,proximity:0
+#: selection:project.risk,rating:0
+msgid "Very High"
+msgstr "Oso handia"
+
+#. module: project_risk
+#: selection:project.risk,rating:0
+msgid "Very Low"
+msgstr "Oso behea"
+
+#. module: project_risk
+#: selection:project.risk,probability:0
+msgid "Very likely"
+msgstr "Oso gertagarria"
+
+#. module: project_risk
+#: selection:project.risk,proximity:0
+msgid "Very low"
+msgstr "Oso behea"
+
+#. module: project_risk
+#: model:ir.model,name:project_risk.model_project_risk_category
+msgid "project.risk.category"
+msgstr "project.risk.category"
+
+#. module: project_risk
+#: model:ir.model,name:project_risk.model_project_risk_response
+msgid "project.risk.response"
+msgstr "project.risk.response"
+
+#. module: project_risk
+#: model:ir.model,name:project_risk.model_project_risk_response_category
+msgid "project.risk.response.category"
+msgstr "project.risk.response.category"
+
