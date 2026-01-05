@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-13 09:23+0000\n"
-"PO-Revision-Date: 2025-11-13 09:23+0000\n"
+"POT-Creation-Date: 2025-11-21 12:47+0000\n"
+"PO-Revision-Date: 2025-11-21 12:47+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -23,6 +23,7 @@ msgid ""
 "%d running timers found. Cannot know which one to stop. Please stop them "
 "manually."
 msgstr ""
+"Abian diren %d tenporizadore aurkitu dira. Ez dakigu zein gelditu behar den. Geldiaraz ezazu eskuz."
 
 #. module: project_timesheet_time_control
 #: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.hr_timesheet_switch_form
@@ -40,7 +41,7 @@ msgid ""
 "                    <span>to</span>"
 msgstr ""
 "<br/>\n"
-"                    <span>-</span>"
+"                    <span>hartzailea:</span>"
 
 #. module: project_timesheet_time_control
 #: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.view_project_kanban_inherited
@@ -50,6 +51,10 @@ msgid ""
 "                            Start work\n"
 "                        </span>"
 msgstr ""
+"<span class=\"o_label\">\n"
+"                            <i class=\"fa fa-lg fa-play-circle text-success\"/>\n"
+"                            Hasi lana\n"
+"                        </span>"
 
 #. module: project_timesheet_time_control
 #: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.view_project_kanban_inherited
@@ -59,6 +64,10 @@ msgid ""
 "                            Stop work\n"
 "                        </span>"
 msgstr ""
+"<span class=\"o_label\">\n"
+"                            <i class=\"fa fa-lg fa-stop-circle text-warning\"/>\n"
+"                            Gelditu lana\n"
+"                        </span>"
 
 #. module: project_timesheet_time_control
 #: model:ir.model,name:project_timesheet_time_control.model_account_analytic_line
@@ -68,7 +77,7 @@ msgstr "Lerro analitikoa"
 #. module: project_timesheet_time_control
 #: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.hr_timesheet_switch_form
 msgid "Cancel"
-msgstr "Ezeztatu"
+msgstr "Utzi"
 
 #. module: project_timesheet_time_control
 #. odoo-python
@@ -78,6 +87,7 @@ msgid ""
 "Cannot stop timer %d because it is not running. Refresh the page and check "
 "again."
 msgstr ""
+"Ezin da gelditu %d, ez dagoelako abian. Freskatu orria eta egiazta ezazu berriro."
 
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch__company_id
@@ -107,7 +117,7 @@ msgstr "Deskribapena"
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch__display_name
 msgid "Display Name"
-msgstr "Izena erakutsi"
+msgstr "Bistaratzeko izena"
 
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_account_analytic_line__date_time_end
@@ -127,12 +137,12 @@ msgstr "Amaitu lana"
 #. module: project_timesheet_time_control
 #: model:ir.model,name:project_timesheet_time_control.model_hr_timesheet_switch
 msgid "Helper to quickly switch between timesheet lines"
-msgstr "Ordu-parteko lerroak azkar aldatzeko laguntzailea"
+msgstr "Ordu-orriko lerroak azkar aldatzeko laguntzailea"
 
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch__id
 msgid "ID"
-msgstr "IDa"
+msgstr ""
 
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,help:project_timesheet_time_control.field_account_analytic_line__show_time_control
@@ -160,7 +170,7 @@ msgstr "Noiz eguneratua"
 #. module: project_timesheet_time_control
 #: model:ir.model,name:project_timesheet_time_control.model_hr_timesheet_time_control_mixin
 msgid "Mixin for records related with timesheet lines"
-msgstr "Ordu-parteko lerroekin lotutako erregistroetarako mixina"
+msgstr "Ordu-orriko lerroekin lotutako erregistroetarako mixina"
 
 #. module: project_timesheet_time_control
 #. odoo-python
@@ -170,8 +180,7 @@ msgid ""
 "No running timer found in %(model)s %(record)s. Refresh the page and check "
 "again."
 msgstr ""
-"Ez da aurkitu kronometrorik %(model)en (record)s fitxategietan. Freskatu "
-"orria eta probatu berriro."
+"Ez da aurkitu kronometrorik %(model)en (record)s fitxategietan. Freskatu orria eta probatu berriro."
 
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch__analytic_line_id
@@ -203,7 +212,7 @@ msgstr "Proiektua"
 #. module: project_timesheet_time_control
 #: model:ir.model.fields.selection,name:project_timesheet_time_control.selection__account_analytic_line__show_time_control__resume
 msgid "Resume"
-msgstr "Berrekin"
+msgstr "Jarraitu"
 
 #. module: project_timesheet_time_control
 #. odoo-python
@@ -225,6 +234,7 @@ msgid "Show Time Control"
 msgstr "Erakutsi denbora-kontrola"
 
 #. module: project_timesheet_time_control
+#: model:ir.model.fields.selection,name:project_timesheet_time_control.selection__crm_lead__show_time_control__start
 #: model:ir.model.fields.selection,name:project_timesheet_time_control.selection__hr_timesheet_time_control_mixin__show_time_control__start
 #: model:ir.model.fields.selection,name:project_timesheet_time_control.selection__project_project__show_time_control__start
 #: model:ir.model.fields.selection,name:project_timesheet_time_control.selection__project_task__show_time_control__start
@@ -259,6 +269,7 @@ msgstr "Hasi lanean"
 
 #. module: project_timesheet_time_control
 #: model:ir.model.fields.selection,name:project_timesheet_time_control.selection__account_analytic_line__show_time_control__stop
+#: model:ir.model.fields.selection,name:project_timesheet_time_control.selection__crm_lead__show_time_control__stop
 #: model:ir.model.fields.selection,name:project_timesheet_time_control.selection__hr_timesheet_time_control_mixin__show_time_control__stop
 #: model:ir.model.fields.selection,name:project_timesheet_time_control.selection__project_project__show_time_control__stop
 #: model:ir.model.fields.selection,name:project_timesheet_time_control.selection__project_task__show_time_control__stop
@@ -291,17 +302,17 @@ msgstr "Gelditu lana"
 #: model:ir.model,name:project_timesheet_time_control.model_project_task
 #: model:ir.model.fields,field_description:project_timesheet_time_control.field_hr_timesheet_switch__task_id
 msgid "Task"
-msgstr "Ataza"
+msgstr "Zeregina"
 
 #. module: project_timesheet_time_control
 #: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.hr_timesheet_switch_form
 msgid "That is a lot of time! Make sure it is fine before saving."
-msgstr ""
+msgstr "Hori denbora asko da! Ziurtatu zuzena dela gorde aurretik."
 
 #. module: project_timesheet_time_control
 #: model_terms:ir.ui.view,arch_db:project_timesheet_time_control.hr_timesheet_switch_form
 msgid "The previous timer is old. Do you really want to stop it now?"
-msgstr ""
+msgstr "Aurreko tenporizadorea zaharra da. Ziur zaude orain geldiarazi nahi duzula?"
 
 #. module: project_timesheet_time_control
 #: model:ir.model.fields,help:project_timesheet_time_control.field_hr_timesheet_switch__running_timer_id

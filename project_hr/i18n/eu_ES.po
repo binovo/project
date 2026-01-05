@@ -1,0 +1,118 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* project_hr
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-21 12:47+0000\n"
+"PO-Revision-Date: 2025-11-21 12:47+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: project_hr
+#: model:ir.model.fields,field_description:project_hr.field_project_task__allowed_hr_category_ids
+msgid "Allowed HR categories"
+msgstr "Baimendutako giza baliabideen kategoriak"
+
+#. module: project_hr
+#: model:ir.model.fields,field_description:project_hr.field_project_task__allowed_assigned_user_ids
+msgid "Allowed users"
+msgstr "Baimendutako erabiltzaileak"
+
+#. module: project_hr
+#: model:ir.model,name:project_hr.model_hr_employee
+msgid "Employee"
+msgstr "Langilea"
+
+#. module: project_hr
+#: model:ir.model.fields,field_description:project_hr.field_project_project__hr_category_ids
+#: model:ir.model.fields,field_description:project_hr.field_project_task__hr_category_ids
+msgid "Employee Categories"
+msgstr "Langileen kategoriak"
+
+#. module: project_hr
+#: model:ir.model.fields,field_description:project_hr.field_res_users__hr_category_ids
+msgid "HR categories"
+msgstr "Giza baliabideen kategoriak"
+
+#. module: project_hr
+#: model:ir.model.fields,help:project_hr.field_project_project__hr_category_ids
+msgid ""
+"Here you can link the project to several employee categories, that will be "
+"the allowed in tasks."
+msgstr ""
+"Hemen, proiektua langileen kategoria batekin baino gehiagorekin lotzeko aukera duzu, zereginetarako sarbidea izan dezaten."
+
+#. module: project_hr
+#: model:ir.model.fields,help:project_hr.field_project_task__hr_category_ids
+msgid ""
+"Here you can select the employee category suitable to perform this task, "
+"limiting the selectable users to be assigned to those that belongs to that "
+"category."
+msgstr ""
+"Hemen, zeregin hau egiteko egokia den langileen kategoria bat hauta dezakezu, esleitzeko hauta daitezkeen erabiltzaileak kategoria horretakoak soilik izan daitezen."
+
+#. module: project_hr
+#: model:ir.model.fields,field_description:project_hr.field_project_task__employee_ids
+msgid "Linked employees"
+msgstr "Lotutako langileak"
+
+#. module: project_hr
+#: model:ir.model,name:project_hr.model_project_project
+msgid "Project"
+msgstr "Proiektua"
+
+#. module: project_hr
+#: model:ir.model,name:project_hr.model_project_task
+msgid "Task"
+msgstr "Zeregina"
+
+#. module: project_hr
+#: model:ir.model.fields,help:project_hr.field_project_task__allowed_hr_category_ids
+msgid ""
+"Technical field for computing allowed employee categories according "
+"categories at project level."
+msgstr ""
+"Proiektu-mailako kategoriaren arabera baimendutako langileen kategoriak kalkulatzeko eremu teknikoa."
+
+#. module: project_hr
+#: model:ir.model.fields,help:project_hr.field_project_task__allowed_assigned_user_ids
+msgid ""
+"Technical field for computing allowed users according employee category."
+msgstr ""
+"Langileen kategoriaren arabera baimendutako erabiltzaileak kalkulatzeko eremu teknikoa."
+
+#. module: project_hr
+#: model:ir.model.fields,help:project_hr.field_res_users__hr_category_ids
+msgid ""
+"Technical field for computing dynamically employee categories linked to the "
+"user in the current company."
+msgstr ""
+"Oraingo enpresan dagoen erabiltzailearekin lotutako langileen kategoriak dinamikoki kalkulatzeko eremu teknikoa."
+
+#. module: project_hr
+#: model:ir.model,name:project_hr.model_res_users
+msgid "User"
+msgstr "Erabiltzailea"
+
+#. module: project_hr
+#. odoo-python
+#: code:addons/project_hr/models/project_task.py:0
+#, python-format
+msgid "You can't assign a category that is not allowed at project level."
+msgstr "Ezin da proiektu-mailan baimenduta ez dagoen kategoriarik esleitu."
+
+#. module: project_hr
+#. odoo-python
+#: code:addons/project_hr/models/project_task.py:0
+#, python-format
+msgid ""
+"You can't assign a user not belonging to the selected employee category."
+msgstr ""
+"Ezin da hautatutako langileen kategoriakoa ez den erabiltzailerik esleitu."

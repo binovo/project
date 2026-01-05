@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* project_milestone_tree
+# 	* project_task_stage_mgmt
 #
 msgid ""
 msgstr ""
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: project_milestone_tree
-#: model:ir.actions.act_window,name:project_milestone_tree.project_milestone_tree_action
-#: model:ir.ui.menu,name:project_milestone_tree.project_menu_config_milestone
-msgid "Milestones"
-msgstr "Mugarriak"
+#. module: project_task_stage_mgmt
+#: model_terms:ir.ui.view,arch_db:project_task_stage_mgmt.project_project_view_form_inherit_stages
+#: model_terms:ir.ui.view,arch_db:project_task_stage_mgmt.project_project_view_form_simplified_stage
+msgid "Task Stages"
+msgstr ""
