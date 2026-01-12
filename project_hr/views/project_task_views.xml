@@ -16,7 +16,7 @@
                 <field name="hr_category_ids" widget="many2many_tags"/>
             </field>
             <field name="user_id" position="attributes">
-                <attribute name="domain">[('id', 'in', allowed_user_ids)]</attribute>
+                <attribute name="domain">[('id', 'in', allowed_user_ids), ("groups_id", "in", [%(base.group_user)d])] </attribute>
             </field>
             <field name="date_assign" position="after">
                 <field name="employee_id"/>
@@ -33,7 +33,7 @@
                 <field name="allowed_user_ids" invisible="1"/>
             </field>
             <field name="user_id" position="attributes">
-                <attribute name="domain">[('id', 'in', allowed_user_ids)]</attribute>
+                <attribute name="domain">[('id', 'in', allowed_user_ids), ("groups_id", "in", [%(base.group_user)d])] </attribute>
             </field>
         </field>
     </record>
@@ -47,7 +47,7 @@
                 <field name="allowed_user_ids" invisible="1"/>
             </field>
             <field name="user_id" position="attributes">
-                <attribute name="domain">[('id', 'in', allowed_user_ids)]</attribute>
+                <attribute name="domain">[('id', 'in', allowed_user_ids), ("groups_id", "in", [%(base.group_user)d])] </attribute>
             </field>
         </field>
     </record>
